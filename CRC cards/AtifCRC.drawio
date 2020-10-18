@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-18T17:56:23.785Z" agent="5.0 (Windows)" etag="f4TbbikAFUuZIhIyV5s-" version="13.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-18T17:59:44.155Z" agent="5.0 (Windows)" etag="zhdpHd9qk1GW-4u1w5Mv" version="13.8.0" type="github">
   <diagram id="jdQ8MMCzgzIyr_RG6TEl" name="Page-1">
     <mxGraphModel dx="1673" dy="942" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -19,7 +19,7 @@
         <mxCell id="tLHa-nuJV5bWE2vfmLjr-124" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="tLHa-nuJV5bWE2vfmLjr-120" vertex="1">
           <mxGeometry y="60" width="420" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tLHa-nuJV5bWE2vfmLjr-125" value="Holds a floor tile" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="tLHa-nuJV5bWE2vfmLjr-124" vertex="1">
+        <mxCell id="tLHa-nuJV5bWE2vfmLjr-125" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="tLHa-nuJV5bWE2vfmLjr-124" vertex="1">
           <mxGeometry width="304" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tLHa-nuJV5bWE2vfmLjr-126" value="Gameboard" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" parent="tLHa-nuJV5bWE2vfmLjr-124" vertex="1">
@@ -28,7 +28,7 @@
         <mxCell id="tLHa-nuJV5bWE2vfmLjr-127" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="tLHa-nuJV5bWE2vfmLjr-120" vertex="1">
           <mxGeometry y="90" width="420" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tLHa-nuJV5bWE2vfmLjr-128" value="Holds action tiles for Player" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="tLHa-nuJV5bWE2vfmLjr-127" vertex="1">
+        <mxCell id="tLHa-nuJV5bWE2vfmLjr-128" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="tLHa-nuJV5bWE2vfmLjr-127" vertex="1">
           <mxGeometry width="304" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tLHa-nuJV5bWE2vfmLjr-129" value="Player" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" parent="tLHa-nuJV5bWE2vfmLjr-127" vertex="1">
@@ -287,7 +287,7 @@
           <mxGeometry x="250" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tLHa-nuJV5bWE2vfmLjr-89" value="Player" style="shape=table;html=1;whiteSpace=wrap;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="540" y="390" width="480" height="380" as="geometry" />
+          <mxGeometry x="540" y="390" width="480" height="420" as="geometry" />
         </mxCell>
         <mxCell id="tLHa-nuJV5bWE2vfmLjr-90" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="tLHa-nuJV5bWE2vfmLjr-89" vertex="1">
           <mxGeometry y="30" width="480" height="30" as="geometry" />
@@ -384,6 +384,9 @@
         </mxCell>
         <mxCell id="jPsLqHbsvEJ1Bf3fK-ny-1" value="Get inventory (controller)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="625" y="730" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mbMOIbAaAvrXcfuUmqYv-1" value="Contains an ArrayList of the Players inventory" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="770" width="260" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
