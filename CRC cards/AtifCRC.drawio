@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2020-10-15T17:49:34.610Z" agent="5.0 (Windows)" etag="bCSzeK6FBzsskKqV5-7Q" version="13.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-18T17:44:10.379Z" agent="5.0 (Windows)" etag="_XiowTHgoXbe5WRQ2NJ5" version="13.8.0" type="github">
   <diagram id="jdQ8MMCzgzIyr_RG6TEl" name="Page-1">
     <mxGraphModel dx="1422" dy="801" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="tLHa-nuJV5bWE2vfmLjr-120" value="Controller" style="shape=table;html=1;whiteSpace=wrap;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;" parent="1" vertex="1">
+        <mxCell id="tLHa-nuJV5bWE2vfmLjr-120" value="GameLogic" style="shape=table;html=1;whiteSpace=wrap;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="1040" y="460" width="420" height="420" as="geometry" />
         </mxCell>
         <mxCell id="tLHa-nuJV5bWE2vfmLjr-121" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="tLHa-nuJV5bWE2vfmLjr-120" vertex="1">
@@ -211,7 +211,7 @@
         <mxCell id="tLHa-nuJV5bWE2vfmLjr-74" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;align=left;" parent="tLHa-nuJV5bWE2vfmLjr-64" vertex="1">
           <mxGeometry y="140" width="340" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tLHa-nuJV5bWE2vfmLjr-75" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=0;overflow=hidden;" parent="tLHa-nuJV5bWE2vfmLjr-74" vertex="1">
+        <mxCell id="tLHa-nuJV5bWE2vfmLjr-75" value="Get Random Tile" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=0;overflow=hidden;" parent="tLHa-nuJV5bWE2vfmLjr-74" vertex="1">
           <mxGeometry width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tLHa-nuJV5bWE2vfmLjr-76" value="Action tile class (This is a&#xa;superclass of all the action tiles)&#xa;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;" parent="tLHa-nuJV5bWE2vfmLjr-74" vertex="1">
@@ -220,7 +220,7 @@
         <mxCell id="tLHa-nuJV5bWE2vfmLjr-77" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;align=left;" parent="tLHa-nuJV5bWE2vfmLjr-64" vertex="1">
           <mxGeometry y="170" width="340" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tLHa-nuJV5bWE2vfmLjr-78" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=0;overflow=hidden;" parent="tLHa-nuJV5bWE2vfmLjr-77" vertex="1">
+        <mxCell id="tLHa-nuJV5bWE2vfmLjr-78" value="Remove the tile given" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=0;overflow=hidden;" parent="tLHa-nuJV5bWE2vfmLjr-77" vertex="1">
           <mxGeometry width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tLHa-nuJV5bWE2vfmLjr-79" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;" parent="tLHa-nuJV5bWE2vfmLjr-77" vertex="1">
@@ -232,7 +232,7 @@
         <mxCell id="tLHa-nuJV5bWE2vfmLjr-81" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=0;overflow=hidden;" parent="tLHa-nuJV5bWE2vfmLjr-80" vertex="1">
           <mxGeometry width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tLHa-nuJV5bWE2vfmLjr-82" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;" parent="tLHa-nuJV5bWE2vfmLjr-80" vertex="1">
+        <mxCell id="tLHa-nuJV5bWE2vfmLjr-82" value="Controller" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;" parent="tLHa-nuJV5bWE2vfmLjr-80" vertex="1">
           <mxGeometry x="150" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tLHa-nuJV5bWE2vfmLjr-83" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;align=left;" parent="tLHa-nuJV5bWE2vfmLjr-64" vertex="1">
@@ -259,7 +259,7 @@
         <mxCell id="tLHa-nuJV5bWE2vfmLjr-154" value="Tell board if its an action tile or floor tile" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="1085" y="700" width="230" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="tLHa-nuJV5bWE2vfmLjr-32" value="Silk Bag" style="shape=table;html=1;whiteSpace=wrap;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;" parent="1" vertex="1">
+        <mxCell id="tLHa-nuJV5bWE2vfmLjr-32" value="GameData" style="shape=table;html=1;whiteSpace=wrap;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="550" y="40" width="310" height="200" as="geometry" />
         </mxCell>
         <mxCell id="tLHa-nuJV5bWE2vfmLjr-33" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="tLHa-nuJV5bWE2vfmLjr-32" vertex="1">
@@ -274,16 +274,16 @@
         <mxCell id="tLHa-nuJV5bWE2vfmLjr-36" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="tLHa-nuJV5bWE2vfmLjr-32" vertex="1">
           <mxGeometry y="60" width="310" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tLHa-nuJV5bWE2vfmLjr-37" value="Get Random Tile" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="tLHa-nuJV5bWE2vfmLjr-36" vertex="1">
+        <mxCell id="tLHa-nuJV5bWE2vfmLjr-37" value="Returns given data thats requested " style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="tLHa-nuJV5bWE2vfmLjr-36" vertex="1">
           <mxGeometry width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tLHa-nuJV5bWE2vfmLjr-38" value="Controller" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" parent="tLHa-nuJV5bWE2vfmLjr-36" vertex="1">
+        <mxCell id="tLHa-nuJV5bWE2vfmLjr-38" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" parent="tLHa-nuJV5bWE2vfmLjr-36" vertex="1">
           <mxGeometry x="150" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tLHa-nuJV5bWE2vfmLjr-39" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="tLHa-nuJV5bWE2vfmLjr-32" vertex="1">
           <mxGeometry y="90" width="310" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tLHa-nuJV5bWE2vfmLjr-40" value="Remove the tile given" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="tLHa-nuJV5bWE2vfmLjr-39" vertex="1">
+        <mxCell id="tLHa-nuJV5bWE2vfmLjr-40" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="tLHa-nuJV5bWE2vfmLjr-39" vertex="1">
           <mxGeometry width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tLHa-nuJV5bWE2vfmLjr-41" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" parent="tLHa-nuJV5bWE2vfmLjr-39" vertex="1">
@@ -316,7 +316,7 @@
         <mxCell id="tLHa-nuJV5bWE2vfmLjr-97" value="Select a location for an action tile " style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="tLHa-nuJV5bWE2vfmLjr-96" vertex="1">
           <mxGeometry width="326" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tLHa-nuJV5bWE2vfmLjr-98" value="Silk bag" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" parent="tLHa-nuJV5bWE2vfmLjr-96" vertex="1">
+        <mxCell id="tLHa-nuJV5bWE2vfmLjr-98" value="Tile" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" parent="tLHa-nuJV5bWE2vfmLjr-96" vertex="1">
           <mxGeometry x="326" width="154" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tLHa-nuJV5bWE2vfmLjr-99" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;align=left;" parent="tLHa-nuJV5bWE2vfmLjr-89" vertex="1">
@@ -382,14 +382,8 @@
         <mxCell id="tLHa-nuJV5bWE2vfmLjr-119" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;" parent="tLHa-nuJV5bWE2vfmLjr-117" vertex="1">
           <mxGeometry x="326" width="154" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tLHa-nuJV5bWE2vfmLjr-155" value="Is bag empty?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-          <mxGeometry x="580" y="170" width="90" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="tLHa-nuJV5bWE2vfmLjr-156" value="End game (with a winner)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="1110" y="790" width="160" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="tLHa-nuJV5bWE2vfmLjr-157" value="End game stalemate (bag empty)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-          <mxGeometry x="1090" y="820" width="200" height="20" as="geometry" />
         </mxCell>
         <mxCell id="jPsLqHbsvEJ1Bf3fK-ny-1" value="Get inventory (controller)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="625" y="730" width="150" height="20" as="geometry" />
